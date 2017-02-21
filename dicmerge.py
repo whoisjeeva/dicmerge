@@ -27,7 +27,8 @@ def main():
     displayLogo()
     words = combineWordlist(args.files)
     generate(words, args.o)
-    compress(args.o)
+    if (args.compress == '1'):
+        compress(args.o)
   
 
 def displayLogo():      
@@ -50,6 +51,7 @@ def setArguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('files', type=argparse.FileType('r'), nargs='+')
     parser.add_argument('-o', help='output file required')
+    parser.add_argument('--compress', help='generate a compressed version, off=0, on=1', default=0)
     return parser.parse_args()
 
 def combineWordlist(files):
