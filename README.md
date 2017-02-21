@@ -15,5 +15,12 @@ See License at codingpin.com (https://codingpin.com/dicmergeproject)
 
 <img src="http://cdn.cdnpen.com/58abebfe2e41b13.png">
 
+## Installing requirements
+```
+$ git clone https://github.com/anyms/dicmerge.git
+$ cd onioff
+$ pip install -r requirement.txt
+```
+
 ## Usage
 `$ python dicmerge.py wordlist1.txt wordlist2.txt wordlist3.txt -o bigWordlist.txt --compress 1`
