@@ -12,3 +12,6 @@ See License at codingpin.com (https://codingpin.com/dicmergeproject)
               Created by anyms  |___/      
 
 </pre>
+
+## Usage
+`$ python dicmerge.py wordlist1.txt wordlist2.txt wordlist3.txt -o bigWordlist.txt --compress 1`
