@@ -13,5 +13,7 @@ See License at codingpin.com (https://codingpin.com/dicmergeproject)
 
 </pre>
 
+<img src="http://cdn.cdnpen.com/58abebfe2e41b13.png">
+
 ## Usage
 `$ python dicmerge.py wordlist1.txt wordlist2.txt wordlist3.txt -o bigWordlist.txt --compress 1`
