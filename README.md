@@ -18,7 +18,7 @@ See License at codingpin.com (https://codingpin.com/dicmergeproject)
 ## Installing requirements
 ```
 $ git clone https://github.com/anyms/dicmerge.git
-$ cd onioff
+$ cd dicmerge
 $ pip install -r requirement.txt
 ```
 
